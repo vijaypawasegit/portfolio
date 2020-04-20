@@ -583,6 +583,10 @@ body {
 @media (min-width: 768px){
 .nav-logo {
     padding-right: 10px;
+    align-self: center;
+    color: #333333;
+    font-size: 18px;
+    font-weight: bold;
 }
 }
 @media (min-width: 1200px){
