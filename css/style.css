@@ -1,7 +1,11 @@
 [tabindex="-1"]:focus {
     outline: 0!important;
 }
-
+::selection {
+    background-color: rgba(252,51,89,0.16);
+    color: #580112;
+    text-shadow: none;
+}
 .logo {
 	margin-top: 10px;
 }
