@@ -3556,6 +3556,7 @@
     transition: all 0.3s ease-in-out 0s;
     color: #6e6d7a;
     font-weight: normal;
+    border-radius: 100px; 
 }
 .cbp-filter-item:first-child {
 	/* border-left: 1px solid #dedede; */
