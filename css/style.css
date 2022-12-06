@@ -596,12 +596,13 @@ body {
 @media (min-width: 1200px){
 .nav-logo {
 	padding-right: 20px;
-	color: #333333;
-    font-size: 18px;
+	color: #000;
+    font-size: 15px;
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
 	justify-content: center;
 	font-weight: bold;
+    align-items: center;
 }
 }
 .nav-logo a {
