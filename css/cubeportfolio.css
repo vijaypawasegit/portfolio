@@ -2797,7 +2797,8 @@
 /* PREVIOUS BUTTON LIGHBOX */
 .cbp-popup-lightbox .cbp-popup-prev {
     /* @editable properties */
-    background: url("https://lh3.google.com/u/0/d/1b4_pZEQ7clH_2ZH8kRTw2vuewpFLmr1M=w1366-h625-iv1") no-repeat scroll -2px -2px transparent;
+    /* background: url("https://lh3.google.com/u/0/d/1b4_pZEQ7clH_2ZH8kRTw2vuewpFLmr1M=w1366-h625-iv1") no-repeat scroll -2px -2px transparent; */
+    background: url(../images/cbp-sprite.png) no-repeat scroll -2px -2px transparent;
     width: 44px;
     height: 44px;
     top: 0;
@@ -2814,7 +2815,7 @@
 /* PREVIOUS BUTTON SINGLEPAGE */
 .cbp-popup-singlePage .cbp-popup-prev {
     /* @editable properties */
-    background: url("https://lh3.google.com/u/0/d/1b4_pZEQ7clH_2ZH8kRTw2vuewpFLmr1M=w1366-h625-iv1") no-repeat scroll -2px -94px transparent;
+    background: url(../images/cbp-sprite.png) no-repeat scroll 0px -96px transparent;
     width: 44px;
     height: 44px;
     top: 30px;
@@ -2831,7 +2832,8 @@
 /* NEXT BUTTON LIGHTBOX */
 .cbp-popup-lightbox .cbp-popup-next {
     /* @editable properties */
-    background: url("https://lh3.google.com/u/0/d/1b4_pZEQ7clH_2ZH8kRTw2vuewpFLmr1M=w1366-h625-iv1") no-repeat scroll -48px -2px transparent;
+    /* background: url("https://lh3.google.com/u/0/d/1b4_pZEQ7clH_2ZH8kRTw2vuewpFLmr1M=w1366-h625-iv1") no-repeat scroll -48px -2px transparent; */
+    background: url(../images/cbp-sprite.png) no-repeat scroll -48px -2px transparent;
     width: 44px;
     height: 44px;
     top: 0;
@@ -2848,7 +2850,7 @@
 /* NEXT BUTTON SINGLEPAGE */
 .cbp-popup-singlePage .cbp-popup-next {
     /* @editable properties */
-    background: url("https://lh3.google.com/u/0/d/1b4_pZEQ7clH_2ZH8kRTw2vuewpFLmr1M=w1366-h625-iv1") no-repeat scroll -48px -94px transparent;
+    background: url(https://scriptpie.com/cubeportfolio/live-preview/cubeportfolio/img/cbp-sprite.png) no-repeat scroll -48px -94px transparent;
     width: 44px;
     height: 44px;
     top: 30px;
@@ -2865,7 +2867,7 @@
 /* CLOSE BUTTON LIGTHBOX */
 .cbp-popup-lightbox .cbp-popup-close {
     /* @editable properties */
-    background: url("https://lh3.google.com/u/0/d/1b4_pZEQ7clH_2ZH8kRTw2vuewpFLmr1M=w1366-h625-iv1") no-repeat scroll -94px -2px transparent;
+    background: url(../images/cbp-sprite.png) no-repeat scroll -94px -2px transparent;
     height: 40px;
     width: 40px;
     right: 20px;
@@ -2880,7 +2882,7 @@
 /* CLOSE BUTTON SINGLEPAGE */
 .cbp-popup-singlePage .cbp-popup-close {
     /* @editable properties */
-    background: url("https://lh3.google.com/u/0/d/1b4_pZEQ7clH_2ZH8kRTw2vuewpFLmr1M=w1366-h625-iv1") no-repeat scroll -94px -94px transparent;
+    background: url(../images/cbp-sprite.png) no-repeat scroll -94px -94px transparent;
     height: 44px;
     width: 44px;
     margin: auto;
