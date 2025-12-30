@@ -493,7 +493,7 @@ body {
 }
 @media (min-width: 768px){
 	.signed-out-masthead{
-		height:470px;-ms-flex-direction:row;flex-direction:row;padding-top:0;padding-bottom:0;-ms-flex-pack:justify;justify-content:space-between
+		height:420px;-ms-flex-direction:row;flex-direction:row;padding-top:0;padding-bottom:0;-ms-flex-pack:justify;justify-content:space-between
 	}
 }
 .signed-out-masthead .text-content{
