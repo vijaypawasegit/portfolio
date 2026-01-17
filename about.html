@@ -2446,10 +2446,11 @@
     <script src="assets/js/main.js"></script>
     <script>
   window.addEventListener("load", function () {
-    document.getElementById("preloader").style.display = "none";
+    const preloader = document.getElementById("preloader");
+    preloader.classList.add("hide");
   });
-    
 </script>
+
 </body>
 
 </html>

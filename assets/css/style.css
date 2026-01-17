@@ -27405,6 +27405,15 @@ body.tmp-white-version.color-primary-3rd .services-widget.v2 .active-bg {
   border-radius: 50%;
   animation: spin 1s linear infinite;
 }
+#preloader {
+  transition: opacity 0.5s ease;
+}
+
+#preloader.hide {
+  opacity: 0;
+  pointer-events: none;
+}
+
 
 @keyframes spin {
   100% {

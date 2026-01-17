@@ -32,7 +32,9 @@
 </head>
 
 <body class="tmp-white-version">
-
+    <div id="preloader">
+  <div class="loader"></div>
+</div>
     <!-- tpm-header-area start -->
     <header class="tmp-header-area-start header-one header--sticky header--transparent">
         <div class="container">
@@ -3363,6 +3365,13 @@
     <script src="assets/js/plugins/text-type.js"></script>
     <!-- custom Js -->
     <script src="assets/js/main.js"></script>
+    <script>
+  window.addEventListener("load", function () {
+    const preloader = document.getElementById("preloader");
+    preloader.classList.add("hide");
+  });
+</script>
+
 </body>
 
 </html>
