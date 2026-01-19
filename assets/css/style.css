@@ -11300,7 +11300,7 @@ header.header-full-width.header--sticky.sticky {
 }
 .tmp-mainmenu-nav .tmp-mainmenu .has-dropdown .submenu li::after {
   position: absolute;
-  content: "\f105";
+  /* content: "\f105";  edited by Vijay*/
   font-family: "fontawesome";
   font-size: 14px;
   top: 50%;
@@ -27464,4 +27464,16 @@ body.tmp-white-version.color-primary-3rd .services-widget.v2 .active-bg {
 @keyframes fadeout {
   from { opacity: 1; }
   to { opacity: 0; }
+}
+.tmp-mainmenu-nav .tmp-mainmenu .has-dropdown .submenu.resume li.docx::after {
+  position: absolute;
+  content: "\f1c2";
+  font-family: "fontawesome";
+  font-size: 22px;
+}
+.tmp-mainmenu-nav .tmp-mainmenu .has-dropdown .submenu.resume li.pdf::after {
+  position: absolute;
+  content: "\f1c1";
+  font-family: "fontawesome";
+  font-size: 22px;
 }
