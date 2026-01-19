@@ -18,6 +18,10 @@
     <link rel="stylesheet" href="assets/css/vendor/bootstrap.min.css">
     <!-- custom css -->
     <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.css" />
+<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/toastr.min.js"></script>
+
     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-HE2EKDTH03"></script>
 <script>
@@ -387,6 +391,7 @@
                                                         </button>
                                                     </div>
                                                 </div>
+                                                <div id="toast" class="toast">Form submitted successfully!</div>
                                             </div>
                                         </form>
                                     </div>
@@ -488,39 +493,6 @@
 
 
 
-    <!-- ready chatting option via email -->
-    <div class="ready-chatting-option tmp-ready-chat">
-        <input type="checkbox" id="click">
-        <label for="click">
-            <i class="fab fa-facebook-messenger"></i>
-            <i class="fas fa-times"></i>
-        </label>
-        <div class="wrapper">
-            <div class="head-text">
-                Let's chat with me? - Online
-            </div>
-            <div class="chat-box">
-                <div class="desc-text">
-                    Please fill out the form below to start chatting with me directly.
-                </div>
-                <form class="tmp-dynamic-form" action="#">
-                    <div class="field">
-                        <input class="input-field" name="name" placeholder="Your Name" type="text" required>
-                    </div>
-                    <div class="field">
-                        <input class="input-field" name="email" placeholder="Your Email" type="email" required>
-                    </div>
-                    <div class="field textarea">
-                        <textarea class="input-field" placeholder="Your Message" name="message" required></textarea>
-                    </div>
-                    <div class="field">
-                        <button name="submit" type="submit">Send Message</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-    <!-- ready chatting option via email end -->
     <!-- progress area start -->
     <div class="scrollToTop" style="display: block;">
         <div class="arrowUp">
@@ -1800,7 +1772,25 @@
     <script src="assets/js/plugins/text-type.js"></script>
     <!-- custom Js -->
     <script src="assets/js/main.js"></script>
+<script>
+document.getElementById("contact-form").addEventListener("submit", function (e) {
+  e.preventDefault(); // stop page reload
 
+  // Simulate successful submission
+  setTimeout(() => {
+    // Clear form
+    this.reset();
+
+    // Show toast
+    const toast = document.getElementById("toast");
+    toast.classList.add("show");
+
+    setTimeout(() => {
+      toast.classList.remove("show");
+    }, 3000);
+  }, 500);
+});
+</script>
 
 </body>
 

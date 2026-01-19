@@ -27436,3 +27436,32 @@ body.tmp-white-version.color-primary-3rd .services-widget.v2 .active-bg {
   border-radius: 100px;
     max-width: 70px;
 }
+.toast {
+  visibility: hidden;
+  min-width: 250px;
+  background-color: #28a745;
+  color: #fff;
+  text-align: center;
+  border-radius: 4px;
+  padding: 12px;
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 1000;
+  font-size: 18px;
+}
+
+.toast.show {
+  visibility: visible;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@keyframes fadein {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes fadeout {
+  from { opacity: 1; }
+  to { opacity: 0; }
+}
